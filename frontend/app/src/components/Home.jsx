@@ -20,7 +20,7 @@ const Home = () => {
       {/* Action Cards */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
         <div
-          onClick={() => navigate("/create")}
+          onClick={() => navigate("/CreatePaper")}
           className="cursor-pointer bg-white border rounded-xl p-6 shadow hover:shadow-lg transition duration-200"
         >
           <h2 className="text-xl font-semibold text-blue-600 mb-2">
